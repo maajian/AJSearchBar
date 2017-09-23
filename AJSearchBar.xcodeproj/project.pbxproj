@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C9097C41F7635F7001F76FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9097C31F7635F7001F76FF /* main.m */; };
+		9C9097C71F7635F7001F76FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9097C61F7635F7001F76FF /* AppDelegate.m */; };
+		9C9097CA1F7635F7001F76FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9097C91F7635F7001F76FF /* ViewController.m */; };
+		9C9097CD1F7635F7001F76FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9097CB1F7635F7001F76FF /* Main.storyboard */; };
+		9C9097CF1F7635F7001F76FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9097CE1F7635F7001F76FF /* Assets.xcassets */; };
+		9C9097D21F7635F7001F76FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9097D01F7635F7001F76FF /* LaunchScreen.storyboard */; };
+		9C9097DD1F7635F7001F76FF /* AJSearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9097DC1F7635F7001F76FF /* AJSearchBarTests.m */; };
+		9C9097E81F7635F7001F76FF /* AJSearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9097E71F7635F7001F76FF /* AJSearchBarUITests.m */; };
+		9CDF08B21F763928000CCDB9 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF08A71F763928000CCDB9 /* SearchViewController.m */; };
+		9CDF08B31F763928000CCDB9 /* AJSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF08A91F763928000CCDB9 /* AJSearchBar.m */; };
+		9CDF08B41F763928000CCDB9 /* SearchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF08AB1F763928000CCDB9 /* SearchCollectionViewCell.m */; };
+		9CDF08B51F763928000CCDB9 /* SearchCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF08AD1F763928000CCDB9 /* SearchCollectionView.m */; };
+		9CDF08B61F763928000CCDB9 /* SearchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF08AF1F763928000CCDB9 /* SearchFlowLayout.m */; };
+		9CDF08B71F763928000CCDB9 /* SearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF08B11F763928000CCDB9 /* SearchViewModel.m */; };
+		9CDF08BE1F7639B7000CCDB9 /* UITextField+TextLeftOffset_ffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF08BD1F7639B7000CCDB9 /* UITextField+TextLeftOffset_ffset.m */; };
+		9CDF08C51F763C07000CCDB9 /* BigSizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF08C41F763C07000CCDB9 /* BigSizeButton.m */; };
+		9CDF08CB1F76413F000CCDB9 /* Search-Waste.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF08C91F76413F000CCDB9 /* Search-Waste.png */; };
+		9CDF08CC1F76413F000CCDB9 /* Search-Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF08CA1F76413F000CCDB9 /* Search-Delete.png */; };
+		9CDF08CE1F764728000CCDB9 /* discovered.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF08CD1F764728000CCDB9 /* discovered.png */; };
+		F685EE5F8741718905C392B2 /* libPods-AJSearchBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9023AC4EB466DE7A65F4351B /* libPods-AJSearchBar.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C9097D91F7635F7001F76FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C9097B71F7635F7001F76FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C9097BE1F7635F7001F76FF;
+			remoteInfo = AJSearchBar;
+		};
+		9C9097E41F7635F7001F76FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C9097B71F7635F7001F76FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C9097BE1F7635F7001F76FF;
+			remoteInfo = AJSearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A421787F608282C0D2DF239 /* Pods-AJSearchBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJSearchBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJSearchBar/Pods-AJSearchBar.debug.xcconfig"; sourceTree = "<group>"; };
+		7F1FBDEB928F900837634796 /* Pods-AJSearchBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJSearchBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJSearchBar/Pods-AJSearchBar.release.xcconfig"; sourceTree = "<group>"; };
+		9023AC4EB466DE7A65F4351B /* libPods-AJSearchBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AJSearchBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9097BF1F7635F7001F76FF /* AJSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9097C31F7635F7001F76FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C9097C51F7635F7001F76FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C9097C61F7635F7001F76FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C9097C81F7635F7001F76FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C9097C91F7635F7001F76FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C9097CC1F7635F7001F76FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C9097CE1F7635F7001F76FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C9097D11F7635F7001F76FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C9097D31F7635F7001F76FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9097D81F7635F7001F76FF /* AJSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9097DC1F7635F7001F76FF /* AJSearchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJSearchBarTests.m; sourceTree = "<group>"; };
+		9C9097DE1F7635F7001F76FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9097E31F7635F7001F76FF /* AJSearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJSearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9097E71F7635F7001F76FF /* AJSearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJSearchBarUITests.m; sourceTree = "<group>"; };
+		9C9097E91F7635F7001F76FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CDF08A61F763928000CCDB9 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		9CDF08A71F763928000CCDB9 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		9CDF08A81F763928000CCDB9 /* AJSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJSearchBar.h; sourceTree = "<group>"; };
+		9CDF08A91F763928000CCDB9 /* AJSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJSearchBar.m; sourceTree = "<group>"; };
+		9CDF08AA1F763928000CCDB9 /* SearchCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCollectionViewCell.h; sourceTree = "<group>"; };
+		9CDF08AB1F763928000CCDB9 /* SearchCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionViewCell.m; sourceTree = "<group>"; };
+		9CDF08AC1F763928000CCDB9 /* SearchCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCollectionView.h; sourceTree = "<group>"; };
+		9CDF08AD1F763928000CCDB9 /* SearchCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionView.m; sourceTree = "<group>"; };
+		9CDF08AE1F763928000CCDB9 /* SearchFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFlowLayout.h; sourceTree = "<group>"; };
+		9CDF08AF1F763928000CCDB9 /* SearchFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFlowLayout.m; sourceTree = "<group>"; };
+		9CDF08B01F763928000CCDB9 /* SearchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewModel.h; sourceTree = "<group>"; };
+		9CDF08B11F763928000CCDB9 /* SearchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewModel.m; sourceTree = "<group>"; };
+		9CDF08BC1F7639B7000CCDB9 /* UITextField+TextLeftOffset_ffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TextLeftOffset_ffset.h"; sourceTree = "<group>"; };
+		9CDF08BD1F7639B7000CCDB9 /* UITextField+TextLeftOffset_ffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TextLeftOffset_ffset.m"; sourceTree = "<group>"; };
+		9CDF08BF1F763A87000CCDB9 /* Search.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Search.pch; sourceTree = "<group>"; };
+		9CDF08C31F763C07000CCDB9 /* BigSizeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigSizeButton.h; sourceTree = "<group>"; };
+		9CDF08C41F763C07000CCDB9 /* BigSizeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigSizeButton.m; sourceTree = "<group>"; };
+		9CDF08C91F76413F000CCDB9 /* Search-Waste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-Waste.png"; sourceTree = "<group>"; };
+		9CDF08CA1F76413F000CCDB9 /* Search-Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-Delete.png"; sourceTree = "<group>"; };
+		9CDF08CD1F764728000CCDB9 /* discovered.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discovered.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C9097BC1F7635F7001F76FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F685EE5F8741718905C392B2 /* libPods-AJSearchBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9097D51F7635F7001F76FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9097E01F7635F7001F76FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AAD187A4093D5FB5CF29E12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9023AC4EB466DE7A65F4351B /* libPods-AJSearchBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C9097B61F7635F7001F76FF = {
+			isa = PBXGroup;
+			children = (
+				9C9097C11F7635F7001F76FF /* AJSearchBar */,
+				9C9097DB1F7635F7001F76FF /* AJSearchBarTests */,
+				9C9097E61F7635F7001F76FF /* AJSearchBarUITests */,
+				9C9097C01F7635F7001F76FF /* Products */,
+				FFF2975D04814B6F32A4A1C6 /* Pods */,
+				9AAD187A4093D5FB5CF29E12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C9097C01F7635F7001F76FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C9097BF1F7635F7001F76FF /* AJSearchBar.app */,
+				9C9097D81F7635F7001F76FF /* AJSearchBarTests.xctest */,
+				9C9097E31F7635F7001F76FF /* AJSearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C9097C11F7635F7001F76FF /* AJSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF08A51F7638C6000CCDB9 /* SearchBar */,
+				9C9097C51F7635F7001F76FF /* AppDelegate.h */,
+				9C9097C61F7635F7001F76FF /* AppDelegate.m */,
+				9C9097C81F7635F7001F76FF /* ViewController.h */,
+				9C9097C91F7635F7001F76FF /* ViewController.m */,
+				9C9097CB1F7635F7001F76FF /* Main.storyboard */,
+				9C9097CE1F7635F7001F76FF /* Assets.xcassets */,
+				9C9097D01F7635F7001F76FF /* LaunchScreen.storyboard */,
+				9C9097D31F7635F7001F76FF /* Info.plist */,
+				9C9097C21F7635F7001F76FF /* Supporting Files */,
+			);
+			path = AJSearchBar;
+			sourceTree = "<group>";
+		};
+		9C9097C21F7635F7001F76FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C9097C31F7635F7001F76FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C9097DB1F7635F7001F76FF /* AJSearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9097DC1F7635F7001F76FF /* AJSearchBarTests.m */,
+				9C9097DE1F7635F7001F76FF /* Info.plist */,
+			);
+			path = AJSearchBarTests;
+			sourceTree = "<group>";
+		};
+		9C9097E61F7635F7001F76FF /* AJSearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9097E71F7635F7001F76FF /* AJSearchBarUITests.m */,
+				9C9097E91F7635F7001F76FF /* Info.plist */,
+			);
+			path = AJSearchBarUITests;
+			sourceTree = "<group>";
+		};
+		9CDF08A51F7638C6000CCDB9 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF08BF1F763A87000CCDB9 /* Search.pch */,
+				9CDF08C91F76413F000CCDB9 /* Search-Waste.png */,
+				9CDF08CA1F76413F000CCDB9 /* Search-Delete.png */,
+				9CDF08CD1F764728000CCDB9 /* discovered.png */,
+				9CDF08BC1F7639B7000CCDB9 /* UITextField+TextLeftOffset_ffset.h */,
+				9CDF08BD1F7639B7000CCDB9 /* UITextField+TextLeftOffset_ffset.m */,
+				9CDF08C31F763C07000CCDB9 /* BigSizeButton.h */,
+				9CDF08C41F763C07000CCDB9 /* BigSizeButton.m */,
+				9CDF08BB1F76395D000CCDB9 /* Controller */,
+				9CDF08BA1F76395B000CCDB9 /* View */,
+				9CDF08B91F763959000CCDB9 /* Model */,
+				9CDF08B81F763957000CCDB9 /* ViewModel */,
+			);
+			name = SearchBar;
+			sourceTree = "<group>";
+		};
+		9CDF08B81F763957000CCDB9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF08B01F763928000CCDB9 /* SearchViewModel.h */,
+				9CDF08B11F763928000CCDB9 /* SearchViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		9CDF08B91F763959000CCDB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF08AE1F763928000CCDB9 /* SearchFlowLayout.h */,
+				9CDF08AF1F763928000CCDB9 /* SearchFlowLayout.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9CDF08BA1F76395B000CCDB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF08A81F763928000CCDB9 /* AJSearchBar.h */,
+				9CDF08A91F763928000CCDB9 /* AJSearchBar.m */,
+				9CDF08AA1F763928000CCDB9 /* SearchCollectionViewCell.h */,
+				9CDF08AB1F763928000CCDB9 /* SearchCollectionViewCell.m */,
+				9CDF08AC1F763928000CCDB9 /* SearchCollectionView.h */,
+				9CDF08AD1F763928000CCDB9 /* SearchCollectionView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9CDF08BB1F76395D000CCDB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF08A61F763928000CCDB9 /* SearchViewController.h */,
+				9CDF08A71F763928000CCDB9 /* SearchViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FFF2975D04814B6F32A4A1C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A421787F608282C0D2DF239 /* Pods-AJSearchBar.debug.xcconfig */,
+				7F1FBDEB928F900837634796 /* Pods-AJSearchBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C9097BE1F7635F7001F76FF /* AJSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9097EC1F7635F7001F76FF /* Build configuration list for PBXNativeTarget "AJSearchBar" */;
+			buildPhases = (
+				4EE721121EF181852182BBAF /* [CP] Check Pods Manifest.lock */,
+				9C9097BB1F7635F7001F76FF /* Sources */,
+				9C9097BC1F7635F7001F76FF /* Frameworks */,
+				9C9097BD1F7635F7001F76FF /* Resources */,
+				E342979AD29A7B9B74BDA755 /* [CP] Embed Pods Frameworks */,
+				7BFDEF8EDCA73DB1D2A3096E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AJSearchBar;
+			productName = AJSearchBar;
+			productReference = 9C9097BF1F7635F7001F76FF /* AJSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C9097D71F7635F7001F76FF /* AJSearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9097EF1F7635F7001F76FF /* Build configuration list for PBXNativeTarget "AJSearchBarTests" */;
+			buildPhases = (
+				9C9097D41F7635F7001F76FF /* Sources */,
+				9C9097D51F7635F7001F76FF /* Frameworks */,
+				9C9097D61F7635F7001F76FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C9097DA1F7635F7001F76FF /* PBXTargetDependency */,
+			);
+			name = AJSearchBarTests;
+			productName = AJSearchBarTests;
+			productReference = 9C9097D81F7635F7001F76FF /* AJSearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C9097E21F7635F7001F76FF /* AJSearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9097F21F7635F7001F76FF /* Build configuration list for PBXNativeTarget "AJSearchBarUITests" */;
+			buildPhases = (
+				9C9097DF1F7635F7001F76FF /* Sources */,
+				9C9097E01F7635F7001F76FF /* Frameworks */,
+				9C9097E11F7635F7001F76FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C9097E51F7635F7001F76FF /* PBXTargetDependency */,
+			);
+			name = AJSearchBarUITests;
+			productName = AJSearchBarUITests;
+			productReference = 9C9097E31F7635F7001F76FF /* AJSearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C9097B71F7635F7001F76FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhundao;
+				TargetAttributes = {
+					9C9097BE1F7635F7001F76FF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YH49M9STFP;
+						ProvisioningStyle = Automatic;
+					};
+					9C9097D71F7635F7001F76FF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YH49M9STFP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C9097BE1F7635F7001F76FF;
+					};
+					9C9097E21F7635F7001F76FF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YH49M9STFP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C9097BE1F7635F7001F76FF;
+					};
+				};
+			};
+			buildConfigurationList = 9C9097BA1F7635F7001F76FF /* Build configuration list for PBXProject "AJSearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C9097B61F7635F7001F76FF;
+			productRefGroup = 9C9097C01F7635F7001F76FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C9097BE1F7635F7001F76FF /* AJSearchBar */,
+				9C9097D71F7635F7001F76FF /* AJSearchBarTests */,
+				9C9097E21F7635F7001F76FF /* AJSearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C9097BD1F7635F7001F76FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9097D21F7635F7001F76FF /* LaunchScreen.storyboard in Resources */,
+				9CDF08CC1F76413F000CCDB9 /* Search-Delete.png in Resources */,
+				9C9097CF1F7635F7001F76FF /* Assets.xcassets in Resources */,
+				9CDF08CE1F764728000CCDB9 /* discovered.png in Resources */,
+				9CDF08CB1F76413F000CCDB9 /* Search-Waste.png in Resources */,
+				9C9097CD1F7635F7001F76FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9097D61F7635F7001F76FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9097E11F7635F7001F76FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EE721121EF181852182BBAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BFDEF8EDCA73DB1D2A3096E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJSearchBar/Pods-AJSearchBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E342979AD29A7B9B74BDA755 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AJSearchBar/Pods-AJSearchBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C9097BB1F7635F7001F76FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDF08B41F763928000CCDB9 /* SearchCollectionViewCell.m in Sources */,
+				9CDF08B71F763928000CCDB9 /* SearchViewModel.m in Sources */,
+				9CDF08B61F763928000CCDB9 /* SearchFlowLayout.m in Sources */,
+				9CDF08B31F763928000CCDB9 /* AJSearchBar.m in Sources */,
+				9C9097CA1F7635F7001F76FF /* ViewController.m in Sources */,
+				9CDF08BE1F7639B7000CCDB9 /* UITextField+TextLeftOffset_ffset.m in Sources */,
+				9C9097C71F7635F7001F76FF /* AppDelegate.m in Sources */,
+				9CDF08B51F763928000CCDB9 /* SearchCollectionView.m in Sources */,
+				9CDF08B21F763928000CCDB9 /* SearchViewController.m in Sources */,
+				9C9097C41F7635F7001F76FF /* main.m in Sources */,
+				9CDF08C51F763C07000CCDB9 /* BigSizeButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9097D41F7635F7001F76FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9097DD1F7635F7001F76FF /* AJSearchBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9097DF1F7635F7001F76FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9097E81F7635F7001F76FF /* AJSearchBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C9097DA1F7635F7001F76FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C9097BE1F7635F7001F76FF /* AJSearchBar */;
+			targetProxy = 9C9097D91F7635F7001F76FF /* PBXContainerItemProxy */;
+		};
+		9C9097E51F7635F7001F76FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C9097BE1F7635F7001F76FF /* AJSearchBar */;
+			targetProxy = 9C9097E41F7635F7001F76FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C9097CB1F7635F7001F76FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9097CC1F7635F7001F76FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C9097D01F7635F7001F76FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9097D11F7635F7001F76FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C9097EA1F7635F7001F76FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C9097EB1F7635F7001F76FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C9097ED1F7635F7001F76FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A421787F608282C0D2DF239 /* Pods-AJSearchBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AJSearchBar/Search.pch";
+				INFOPLIST_FILE = AJSearchBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C9097EE1F7635F7001F76FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1FBDEB928F900837634796 /* Pods-AJSearchBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AJSearchBar/Search.pch";
+				INFOPLIST_FILE = AJSearchBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C9097F01F7635F7001F76FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				INFOPLIST_FILE = AJSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJSearchBar.app/AJSearchBar";
+			};
+			name = Debug;
+		};
+		9C9097F11F7635F7001F76FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				INFOPLIST_FILE = AJSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJSearchBar.app/AJSearchBar";
+			};
+			name = Release;
+		};
+		9C9097F31F7635F7001F76FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				INFOPLIST_FILE = AJSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AJSearchBar;
+			};
+			name = Debug;
+		};
+		9C9097F41F7635F7001F76FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				INFOPLIST_FILE = AJSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AJSearchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C9097BA1F7635F7001F76FF /* Build configuration list for PBXProject "AJSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9097EA1F7635F7001F76FF /* Debug */,
+				9C9097EB1F7635F7001F76FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9097EC1F7635F7001F76FF /* Build configuration list for PBXNativeTarget "AJSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9097ED1F7635F7001F76FF /* Debug */,
+				9C9097EE1F7635F7001F76FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9097EF1F7635F7001F76FF /* Build configuration list for PBXNativeTarget "AJSearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9097F01F7635F7001F76FF /* Debug */,
+				9C9097F11F7635F7001F76FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9097F21F7635F7001F76FF /* Build configuration list for PBXNativeTarget "AJSearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9097F31F7635F7001F76FF /* Debug */,
+				9C9097F41F7635F7001F76FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C9097B71F7635F7001F76FF /* Project object */;
+}
